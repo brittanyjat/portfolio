@@ -18,83 +18,80 @@ export default function Skills() {
     return (
         <div className='section skills'>
             <h2>Skills</h2>
-            <div id='skills'></div>
-            {/* <div className='skill-section essentials'>
-                <div className='skill-icon-container'>
-                    <div className='skill-container'>
+            <div className='skill-sub'>
+                <br/>
+                <h3>{'< '}Essentials{' >'}</h3>
+                <div className='skill-container'>
+                    <div>
                         <img src={js} alt='skill' />
-                        <h4>Javascript</h4>
+                        <h5>Javascript</h5>
                     </div>
-                    <div className='skill-container'>
-                        <img src={html} alt='skill' />
-                        <h4>HTML5</h4>
-                    </div>
-                    <div className='skill-container'>
+                    <div>
                         <img src={css3} alt='skill' />
-                        <h4>CSS</h4>
+                        <h5>CSS</h5>
+                    </div>
+                    <div>
+                        <img src={html} alt='skill' />
+                        <h5>HTML</h5>
                     </div>
                 </div>
-            </div>
-            <div className='skill-section frontend'>
-                <div>
-                    <div className='skill-container'>
+                <h3>{'< '}Front End{' >'}</h3>
+                <div className='skill-container'>
+                    <div>
                         <img src={react} alt='skill' />
-                        <h4>React</h4>
+                        <h5>React</h5>
                     </div>
-                    <div className='skill-container'>
+                    <div>
                         <img src={redux} alt='skill' />
-                        <h4>Redux</h4>
+                        <h5>Redux</h5>
                     </div>
-                    <div className='skill-container'>
+                    <div>
                         <img src={sass} alt='skill' />
-                        <h4>Sass</h4>
+                        <h5>Sass</h5>
                     </div>
                 </div>
-            </div>
-            <div className='skill-section backend'>
-                <div>
-                    <div className='skill-container'>
-                        <img src={node} alt='skill' />
-                        <h4>Node</h4>
-                    </div>
-                    <div className='skill-container'>
+                <h3>{'< '}Back End{' >'}</h3>
+                <div className='skill-container'>
+                    <div>
                         <img src={express} alt='skill' />
-                        <h4>Express</h4>
+                        <h5>Express</h5>
                     </div>
-                    <div className='skill-container'>
+                    <div>
+                        <img src={node} alt='skill' />
+                        <h5>Node</h5>
+                    </div>
+                    <div>
                         <img src={rest} alt='skill' />
-                        <h4>RESTful API</h4>
+                        <h5>RESTful API</h5>
                     </div>
                 </div>
-            </div>
-            <div className='skill-section database'>
-                <div>
-                    <div className='skill-container'>
+                <h3>{'< '}Database{' >'}</h3>
+                <div className='skill-container'>
+                    <div>
                         <img src={postgresql} alt='skill' />
-                        <h4>PostgreSQL</h4>
+                        <h5>PostgreSQL</h5>
                     </div>
-                    <div className='skill-container'>
+                    <div>
                         <img src={massive} alt='skill' />
-                        <h4>Massive</h4>
+                        <h5>Massive</h5>
+                    </div>
+                </div>
+                <h3>{'< '}Other{' >'}</h3>
+                <div className='skill-container'>
+                    <div>
+                        <img src={git} alt='skill' />
+                        <h5>Git</h5>
+                    </div>
+                    <div>
+                        <img src={jest} alt='skill' />
+                        <h5>Jest</h5>
+                    </div>
+                    <div>
+                        <img src={cypress} alt='skill' />
+                        <h5>Cypress</h5>
                     </div>
                 </div>
             </div>
-            <div className='skill-section other'>
-                <div>
-                    <div className='skill-container'>
-                        <img src={git} alt='skill' />
-                        <h4>Git</h4>
-                    </div>
-                    <div className='skill-container'>
-                        <img src={jest} alt='skill' />
-                        <h4>Jest</h4>
-                    </div>
-                    <div className='skill-container'>
-                        <img src={cypress} alt='skill' />
-                        <h4>Cypress</h4>
-                    </div>
-                </div>
-            </div> */}
         </div>
     )
 }

@@ -10,14 +10,21 @@ export default function App() {
   return (
     <div>
       <Hero />
-      
+
       <div id='about'>
         <About />
       </div>
 
-      <Skills />
+      <div id='skills'>
+        <Skills />
+      </div>
+
       <Projects />
-      <Contact />
+
+      <div id='contact'>
+        <Contact />
+      </div>
+
     </div>
   );
 }

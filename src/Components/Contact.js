@@ -45,14 +45,29 @@ export default class Contact extends Component {
         return (
             <div className='section contact'>
                 <h2>Contact</h2>
-                <div id='contact'>
-                <input placeholder='Email' onChange={(event) => this.handleInput('from', event.target.value)} />
-                <input placeholder='Name' onChange={(event) => this.handleInput('name', event.target.value)} />
-                <input placeholder='Phone ' onChange={(event) => this.handleInput('number', event.target.value)} />
-                <input placeholder='Subject' onChange={(event) => this.handleInput('subject', event.target.value)} />
-                <input placeholder="I am interested in your Dev skills!" onChange={(event) => this.handleInput('text', event.target.value)} />
-                <button onClick={(e) => this.handleTest()}>Submit</button>
-                <ToastContainer position='bottom-center' />
+                <div className='contact-form'>
+                    <h3>Name</h3>
+                    <input placeholder='Name' onChange={(event) => this.handleInput('name', event.target.value)} />
+                    <br />
+
+                    <h3>Email</h3>
+                    <input placeholder='Email' onChange={(event) => this.handleInput('from', event.target.value)} />
+                    <br />
+
+                    <h3>Phone</h3>
+                    <input placeholder='Phone ' onChange={(event) => this.handleInput('number', event.target.value)} />
+                    <br />
+
+                    <h3>Subject</h3>
+                    <input placeholder='Subject' onChange={(event) => this.handleInput('subject', event.target.value)} />
+                    <br />
+
+                    <h3>Message</h3>
+                    <textarea placeholder="I am interested in your Dev skills!" onChange={(event) => this.handleInput('text', event.target.value)} />
+                    <br />
+                    
+                    <button onClick={(e) => this.handleTest()}>Submit</button>
+                    <ToastContainer position='bottom-center' />
                 </div>
             </div>
         )
