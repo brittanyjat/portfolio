@@ -21,7 +21,7 @@ export default class Hero extends Component {
 
     jumpTo(prop) {
         let element = document.getElementById(prop);
-        element.scrollIntoView({ behavior: 'smooth', block:'center' });
+        element.scrollIntoView({ behavior: 'smooth', block:'start' });
     }
     render() {
         const { scrollPosition } = this.state;
