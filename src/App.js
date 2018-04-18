@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import bg1 from './assets/bg1.jpeg';
 
 export default function App() {
   return (
     <div>
-      <Hero />
+      <div id='hero'>
+        <Hero />
+      </div>
 
       <div id='about'>
         <About />
@@ -19,7 +20,9 @@ export default function App() {
         <Skills />
       </div>
 
-      <Projects />
+      <div id='projects'>
+        <Projects />
+      </div>
 
       <div id='contact'>
         <Contact />

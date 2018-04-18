@@ -24,9 +24,9 @@ export default class Hero extends Component {
         element.scrollIntoView({ behavior: 'smooth', block:'start' });
     }
     render() {
-        const { scrollPosition } = this.state;
+        // const { scrollPosition } = this.state;
         return (
-            <div id='hero'>
+            <div>
                 <div className='nav-bar'>
                     <span onClick={(e) => this.jumpTo('hero')}>Home</span>
                     <span onClick={(e) => this.jumpTo('about')}>About</span>
