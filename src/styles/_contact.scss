@@ -1,4 +1,5 @@
 .contact-form {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,11 +18,12 @@
         text-align: left;
         width: 70%;
         font-family: 'Roboto', sans-serif;
-        text-transform: lowercase !important;
+        // text-transform: lowercase !important;
         margin-bottom: 5px;
     }
     button {
         color: white;
+        cursor: pointer;
         background-color: #191919;
         border: none;
         height: 40px;
