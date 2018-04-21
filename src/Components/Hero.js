@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import bg1 from '../assets/bg1.jpeg'
+import windowSize from 'react-window-size';
 
-export default class Hero extends Component {
+class Hero extends Component {
     constructor() {
         super();
 
         this.state = {
             scrollPosition: null
         }
-        this.jumpTo = this.jumpTo.bind(this);
     }
 
     componentDidMount() {
@@ -21,13 +21,15 @@ export default class Hero extends Component {
 
     jumpTo(prop) {
         let element = document.getElementById(prop);
-        element.scrollIntoView({ behavior: 'smooth', block:'start' });
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+
     render() {
-        // const { scrollPosition } = this.state;
+        const { scrollPosition } = this.state;
+        const { windowHeight } = this.props;
         return (
             <div>
-                <div className='nav-bar'>
+                <div className={scrollPosition > windowHeight ? 'blue-nav nav-bar' : 'hero-nav nav-bar' }>
                     <span onClick={(e) => this.jumpTo('hero')}>Home</span>
                     <span onClick={(e) => this.jumpTo('about')}>About</span>
                     <span onClick={(e) => this.jumpTo('skills')}>Skills</span>
@@ -44,3 +46,5 @@ export default class Hero extends Component {
         )
     }
 }
+
+export default windowSize(Hero);

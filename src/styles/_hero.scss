@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:400,500,500i,600i,700|Fjalla+One|Roboto:300,300i,400,400i,500,500i,700i');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,500,500i,600,600i,700|Fjalla+One|Roboto:300,300i,400,400i,500,500i,700i');
 
 .nav-bar {
   width: 100%;
   height: 7vh;
-  background-color: #F1F2EB;
   border-bottom: 1px solid #191919;
   display: flex;
   flex-direction: row;
@@ -14,6 +13,7 @@
   right: 0;
   z-index: 999;
   span {
+    cursor: pointer;
     margin-left: 15px;
     margin-right: 15px;
     font-family: 'Exo', sans-serif;
@@ -31,6 +31,14 @@
       -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
       box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
     }
+}
+
+.blue-nav {
+  background-color: #5698A3;
+}
+
+.hero-nav {
+  background-color: #A69F98;
 }
 
 .my-title {
