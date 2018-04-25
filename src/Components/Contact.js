@@ -58,7 +58,7 @@ export default class Contact extends Component {
                     <br />
 
                     <h3>Message</h3>
-                    <textarea placeholder="interested in your sweet Dev skills!" onChange={(event) => this.handleInput('text', event.target.value)} />
+                    <textarea placeholder="I'm interested in your sweet Dev skills!" onChange={(event) => this.handleInput('text', event.target.value)} />
                     <br />
                     
                     <button onClick={(e) => this.handleTest()}>Submit</button>

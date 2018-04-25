@@ -13,9 +13,9 @@ export default function Breed() {
                     <hr/>
                     <span>Uses Redux to manage all state of the application such as questionnaire to match user to specific breed. </span>
                     <hr/>
-                    <span>Built with React to create components including advanced filtering component to narrow down search results. </span>
+                    <span>Built with React components including advanced filtering component to narrow down and sort search results. </span>
                     <hr/>
-                    <span>Designed and developed fully responsive app using Sass with media queries.</span>
+                    <span>Designed and developed fully responsive app using Sass and media queries.</span>
                     <hr/>
                     <div>
                         <a href='https://breed101.brittanyjat.com'><span>{'{ Live Site }'}</span></a>

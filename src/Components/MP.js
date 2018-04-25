@@ -11,17 +11,19 @@ export default function MP() {
                 </div>
                 <div className='description-container'>
                     <br />
-                    <span>Group developed full stack web application that acts as a resource for members of the climbing community to find routes.</span>
+                    <span>Group developed full stack web application that acts as a resource for members of the climbing community to find routes</span>
                     <hr />
-                    <span>Climbers are able to keep track of their own To-Dos and Ticks. Uses charts to display stats on each user in their profile.</span>
+                    <span>Through Redux, climbers are able to manage their To-Dos and Ticks.</span>
                     <hr />
-                    <span>Users can add and edit information on the site</span>
+                    <span>Users can add and edit information on the site. One tool available is the Cloudinary image uploader.</span>
                     <hr />
-                    <span>Implemented advanced SQL queries to maintain database</span>
+                    <span>Used CTEs and advanced SQL queries to create and maintain database.</span>
+                    <hr />
+                    <span>Implemented Chart.js to display stats on each user in their profile.</span>
                     <hr />
                     <div>
-                        <a href='https://breed101.brittanyjat.com'><span>{'{ Live Site }'}</span></a>
-                        <a href='https://youtu.be/KNT28elQM8o'><span>{'{ Walk-through }'}</span></a>
+                        <a href='https://brittanyjat.com'><span>{'{ Live Site }'}</span></a>
+                        <a ><span>{'{ Walk-through }'}</span></a>
                         <a href='https://github.com/group-project-mp/mountain-project'><span>{'{ Github }'}</span></a>
                     </div>
                 </div>
