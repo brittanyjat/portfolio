@@ -11,7 +11,7 @@ export default function MP() {
                 </div>
                 <div className='description-container'>
                     <br />
-                    <span>Group developed full stack web application that acts as a resource for members of the climbing community to find routes</span>
+                    <span>Group developed full stack web application that acts as a resource for members of the climbing community to find routes.</span>
                     <hr />
                     <span>Through Redux, climbers are able to manage their To-Dos and Ticks.</span>
                     <hr />

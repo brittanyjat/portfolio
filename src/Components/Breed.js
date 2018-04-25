@@ -5,11 +5,10 @@ export default function Breed() {
     return (
         <div className='project-detail breed-section'>
             <h3>{'< Breed101 >'}</h3>
-            {/* <h4>Personally developed full stack web application that educates users on which dog breed is right for them based on various characteristics</h4> */}
             <div className='description-image-container'>
                 <div className='description-container'>
                     <br />
-                    <span>Personally developed full stack web application that educates users on which dog breed is right for them based on various characteristics</span>
+                    <span>Personally developed full stack web application that educates users on which dog breed is right for them based on various characteristics.</span>
                     <hr/>
                     <span>Uses Redux to manage all state of the application such as questionnaire to match user to specific breed. </span>
                     <hr/>
