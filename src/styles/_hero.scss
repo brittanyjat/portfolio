@@ -34,7 +34,7 @@
 }
 
 .blue-nav {
-  background-color: #5698A3;
+  background-color: rgb(131, 203, 216);
 }
 
 .hero-nav {
@@ -135,5 +135,8 @@
     h2 {
       margin-top: 15px;
     }
+  }
+  .nav-bar {
+    justify-content: space-around;
   }
 }
