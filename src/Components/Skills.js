@@ -12,8 +12,7 @@ import postgresql from '../assets/postgresql.png';
 import rest from '../assets/rest.png';
 import sass from '../assets/sass.png';
 import massive from '../assets/massive.png';
-import cypress from '../assets/cypress.png';
-
+import adobe from '../assets/adobe.png';
 export default function Skills() {
     return (
         <div className='section skills'>
@@ -87,8 +86,8 @@ export default function Skills() {
                         <h5>Jest</h5>
                     </div>
                     <div>
-                        <img src={cypress} alt='skill' />
-                        <h5>Cypress</h5>
+                        <img src={adobe} alt='skill' />
+                        <h5>Adobe Creative</h5>
                     </div>
                 </div>
             </div>
