@@ -45,7 +45,6 @@
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
   width: 100%;
   height: 100vh;
@@ -85,7 +84,6 @@
   margin: auto;
   margin-top: 50px;
   width: 95%;
-  // min-height: 500px;
   border: solid 1px black;
   h2 {
     font-family: 'Fjalla One', sans-serif !important;
@@ -104,19 +102,7 @@
 
 @media (min-width:922px){
   .my-title {
-    div {
-      width: 60vw;
-      height: 30vh;
-    }
-    h1 {
-      font-family: 'Fjalla One', sans-serif !important;
-      letter-spacing: 3px;
-      font-size: 48px;
-      color: #F1F2EB;
-    }
-    h2 {
-      margin-top: 15px;
-    }
+    background-attachment: fixed !important;
   }
 }
 
@@ -130,6 +116,24 @@
     }
     h2 {
       font-size: 22px;
+    }
+  }
+}
+
+@media (min-width:768px){
+  .my-title {
+    div {
+      width: 60vw;
+      height: 30vh;
+    }
+    h1 {
+      font-family: 'Fjalla One', sans-serif !important;
+      letter-spacing: 3px;
+      font-size: 48px;
+      color: #F1F2EB;
+    }
+    h2 {
+      margin-top: 15px;
     }
   }
 }
