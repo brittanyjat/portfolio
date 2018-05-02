@@ -22,7 +22,7 @@ export default function MP() {
                     <span>Implemented Chart.js to display stats on each user in their profile.</span>
                     <hr />
                     <div>
-                        <a href='https://brittanyjat.com'><span>{'{ Live Site }'}</span></a>
+                        <a href='http://pountainmoject.com/#/'><span>{'{ Live Site }'}</span></a>
                         <a ><span>{'{ Walk-through }'}</span></a>
                         <a href='https://github.com/group-project-mp/mountain-project'><span>{'{ Github }'}</span></a>
                     </div>
