@@ -7,7 +7,7 @@ export default function MP() {
             <h3>{'< Mountain Project Clone >'}</h3>
             <div className='description-image-container'>
                 <div className='image-link-container'>
-                    <img src={mp} alt='mountain-project' />
+                    <a href='http://pountainmoject.com/#/'><img src={mp} alt='mountain-project' /></a>
                 </div>
                 <div className='description-container'>
                     <br />
@@ -23,7 +23,7 @@ export default function MP() {
                     <hr />
                     <div>
                         <a href='http://pountainmoject.com/#/'><span>{'{ Live Site }'}</span></a>
-                        <a ><span>{'{ Walk-through }'}</span></a>
+                        <a href='https://youtu.be/SzB1_5lo5Ow'><span>{'{ Walk-through }'}</span></a>
                         <a href='https://github.com/group-project-mp/mountain-project'><span>{'{ Github }'}</span></a>
                     </div>
                 </div>
