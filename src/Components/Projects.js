@@ -1,6 +1,7 @@
 import React from 'react';
 import Breed from './Breed';
 import MP from './MP';
+import Jpaints from './Projects/Jpaints';
 
 export default function Projects() {
     return (
@@ -10,6 +11,7 @@ export default function Projects() {
 
             <Breed />
             <MP />
+            <Jpaints />
         </div>
 
     )
