@@ -13,6 +13,8 @@ import rest from '../assets/rest.png';
 import sass from '../assets/sass.png';
 import massive from '../assets/massive.png';
 import adobe from '../assets/adobe.png';
+import sequelize from '../assets/sequelize.svg';
+
 export default function Skills() {
     return (
         <div className='section skills'>
@@ -73,6 +75,10 @@ export default function Skills() {
                     <div>
                         <img src={massive} alt='skill' />
                         <h5>Massive</h5>
+                    </div>
+                    <div>
+                        <img src={sequelize} alt='skill' />
+                        <h5>Sequelize ORM</h5>
                     </div>
                 </div>
                 <h3>{'< '}Other{' >'}</h3>
